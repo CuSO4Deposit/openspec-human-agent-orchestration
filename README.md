@@ -29,6 +29,18 @@ Without that structure, `apply` can become either too linear or too eager. It ma
 
 This project addresses that gap by making the post-propose review artifact explicit and readable by both humans and agents: a shared collaboration plan, not just an approval checklist.
 
+## Prerequisites
+
+Before using these skills, install and initialize OpenSpec in the project you want to upgrade. This skill pack does not install OpenSpec itself.
+
+At minimum, your project should be able to run:
+
+```bash
+openspec init
+```
+
+Then install this skill pack and run `openspec-orchestration-init` inside that OpenSpec project.
+
 ## Installation
 
 Recommended: copy this prompt to your code agent and let it install the skills for you:
@@ -214,4 +226,8 @@ The uninstall skill removes sentinel-marked orchestration patches and preserves 
 - Parallelize read-only discovery before write-heavy implementation.
 - Assign disjoint write scopes to parallel implementation agents.
 - Stop before risky changes rather than letting apply continue silently.
+
+## License
+
+MIT. See `LICENSE`.
 

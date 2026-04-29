@@ -1,0 +1,4 @@
+interface:
+  display_name: "Human-Agent Parallel Planner"
+  short_description: "Create human-readable parallel execution plans."
+  default_prompt: "Convert this OpenSpec change into a human-readable block-by-block execution plan with human gates and parallel agent work."

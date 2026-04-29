@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenSpec Orchestration Uninstall"
+  short_description: "Remove OpenSpec human-agent orchestration patches."
+  default_prompt: "Remove the OpenSpec human-agent orchestration layer from this project and report what changed."

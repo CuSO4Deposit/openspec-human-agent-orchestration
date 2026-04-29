@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenSpec Orchestration Init"
+  short_description: "Upgrade OpenSpec with human-agent orchestration."
+  default_prompt: "After running openspec init, upgrade this project so propose generates a human-readable execution plan and apply executes only approved plans."
